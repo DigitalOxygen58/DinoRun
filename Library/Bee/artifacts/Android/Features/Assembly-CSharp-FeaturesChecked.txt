@@ -1,0 +1,5 @@
+UnityEngine.WWW
+UnityEngine.Input::get_acceleration
+UnityEngine.Input::get_touches
+UnityEngine.Input::GetTouch
+UnityEngine.Input::get_touchCount
