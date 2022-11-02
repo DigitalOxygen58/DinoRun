@@ -1,34 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
+            "outputFile": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "0",
-                        "startOffsets": "53",
-                        "endLines": "4",
-                        "endColumns": "8",
-                        "endOffsets": "229"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "8",
-                        "endOffsets": "229"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -49,10 +25,27 @@
             ]
         },
         {
-            "outputFile": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "outputFile": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,105",
+                        "endColumns": "48,65",
+                        "endOffsets": "101,168"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,152",
+                        "endColumns": "50,67",
+                        "endOffsets": "147,215"
+                    }
+                },
+                {
+                    "source": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "5,2,7",
                         "startColumns": "0,0,0",
@@ -71,24 +64,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,105",
-                        "endColumns": "48,65",
-                        "endOffsets": "101,168"
-                    },
-                    "to": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "101,152",
-                        "endColumns": "50,67",
-                        "endOffsets": "147,215"
-                    }
-                },
-                {
-                    "source": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "source": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\ids.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -102,6 +78,30 @@
                         "startOffsets": "55",
                         "endColumns": "45",
                         "endOffsets": "96"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
                     }
                 }
             ]

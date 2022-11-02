@@ -134,6 +134,7 @@ public class CharacterScroller : MonoBehaviour
         }
 
         // Highlight current character
+        currentCharacterIndex = Mathf.Clamp(currentCharacterIndex, 0, listCharacter.Count - 1);
         currentCharacter = listCharacter[currentCharacterIndex];
         switch (scrollerStyle)
         {

@@ -16,7 +16,11 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 6230ef37012d43b469416f27d2f9b67d
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 12f908560f49b2540b286b0a8df2f85b
+    m_Address: Assets/_CrashyRacing/Models/Cars/Car_7/Materials/Car_7.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4bcdfc005b9f3c74a9fb5ff97b8940c4, type: 2}
   m_SchemaSet:

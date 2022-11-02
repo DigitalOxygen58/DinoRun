@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "D:\\Unity-projects-2019\\Crashy Racing\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "source": "D:\\Git\\DinoRun\\DinoRun\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

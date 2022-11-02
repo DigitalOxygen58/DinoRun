@@ -8,39 +8,17 @@ using System;
 public class SettingController : MonoBehaviour
 {
     public Button activationRateUs;
-    public Button deactivationonRateUs;
-
     public Button activationHelpAndSupport;
-    public Button deactivationHelpAndSupport;
+	public Button deactivationHelpAndSupport;
 
-
-    public GameObject popUpRateUs;
+	public GameObject popUpRateUs;
     public GameObject popUpHelpAndSupport;
-
-    public RateApplication rate;
 
     void Start()
     {
-        activationRateUs.onClick.AddListener(() => { popUpRateUs.SetActive(true); deactivationonRateUs.interactable = false; });
-        deactivationonRateUs.onClick.AddListener(() => { popUpRateUs.SetActive(false); });
-
+        activationRateUs.onClick.AddListener(() => { popUpRateUs.SetActive(true);  });
         activationHelpAndSupport.onClick.AddListener(() => { popUpHelpAndSupport.SetActive(true); });
-        deactivationHelpAndSupport.onClick.AddListener(() => { popUpHelpAndSupport.SetActive(false); });
 
-    }
-	private void OnEnable()
-	{
-        rate.onClick += NewMethod;
+		deactivationHelpAndSupport.onClick.AddListener(() => { popUpHelpAndSupport.SetActive(false); });
 	}
-
-	private void NewMethod()
-	{
-        Debug.Log("POPOPO");
-		 deactivationonRateUs.interactable = true; 
-	}
-
-	void Update()
-    {
-        
-    }
 }

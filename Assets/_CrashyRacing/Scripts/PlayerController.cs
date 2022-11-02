@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         //Change the character to the selected one
         GameObject currentCharacter = CharacterManager.Instance.characters[CharacterManager.Instance.CurrentCharacterIndex];
         Mesh charMesh = currentCharacter.GetComponent<MeshFilter>().sharedMesh;
-        Material charMaterial = currentCharacter.GetComponent<Renderer>().sharedMaterial;
+        Material charMaterial = currentCharacter.GetComponent<Renderer>()?.sharedMaterial;
         GetComponent<MeshFilter>().mesh = charMesh;
         GetComponent<MeshRenderer>().material = charMaterial;
         GetComponent<Renderer>().material.shader = curvedWorld;
@@ -307,8 +307,8 @@ public class PlayerController : MonoBehaviour
                 {
                     dir = -1;
                 }
-                //rigid.AddForce(new Vector3(40 * dir, 0, (200 - currentSpeed)*2), ForceMode.Impulse);
-            }
+				rigid.AddForce(new Vector3(40 * dir, 0, (200 - currentSpeed) * 2), ForceMode.Impulse);
+			}
         }
     }
 

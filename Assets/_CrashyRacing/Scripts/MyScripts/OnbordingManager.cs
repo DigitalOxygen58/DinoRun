@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OnbordingManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private GameManager privacyPolicy;
+    private GameManager chooseLanguage;
+    private GameManager activationPopup;
+    private GameManager onboarding;
+
     void Start()
     {
         

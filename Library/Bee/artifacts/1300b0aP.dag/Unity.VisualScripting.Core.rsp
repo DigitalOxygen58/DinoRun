@@ -112,6 +112,11 @@
 -define:MODULE_PHYSICS_2D_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
+-r:"D:/Git/DinoRun/DinoRun/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"D:/Git/DinoRun/DinoRun/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -297,8 +302,6 @@
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"D:/Unity-projects-2019/Crashy Racing/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
--r:"D:/Unity-projects-2019/Crashy Racing/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Core/Cloning/Cloner.cs"
 "Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Core/Cloning/Cloners/AnimationCurveCloner.cs"

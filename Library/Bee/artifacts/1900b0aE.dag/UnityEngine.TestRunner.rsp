@@ -116,6 +116,7 @@
 -define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"D:/Git/DinoRun/DinoRun/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -327,7 +328,6 @@
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"D:/Unity Editors/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"D:/Unity-projects-2019/Crashy Racing/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"
